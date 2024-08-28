@@ -1,0 +1,25 @@
+.modal {
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 700px;
+    align-items: start;
+    background-color: aliceblue;
+}
+.close{
+    position: relative;
+    font-size: 50px;
+    margin-left: auto;
+}
