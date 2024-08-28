@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=League+Spartan:wght@100..900&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Lusitana:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap');
+
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #0F001B;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav .logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav .user {
+    width: 40px;
+    height: auto;
+}
+
+.menu-icon {
+    display: none; 
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ul-menu {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    color: #fff;
+}
+
+.ul-menu li {
+    list-style: none;
+}
+
+.ul-menu li a {
+    color: #fff;
+    font-family: "Lusitana", serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* HOME */
+.home{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 80vh;
+   gap: 110px;
+   z-index: -1;
+   position: relative;
+   padding: 20px;
+   overflow: hidden;
+}
+
+.bg-home{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.6);
+    left: 0;
+}
+
+.content-left .bruno{
+    max-width: 700;
+    min-width: 550;
+    top: 300px;
+    position: relative;
+}
+
+.content-right{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-right .subtitle{
+    color: #e9a003;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    font-family: 'Rowdies', serif;
+    line-height: 0.0;
+}
+
+.content-right .title{
+    color: #ffff;
+    font-size: 5rem;
+    font-family: 'Karantina', serif;
+}
+
+.content-right .location{
+    color: #e9a003;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    border-bottom: #e9a003 1px solid;
+    padding-bottom: 0.3rem;
+}
+
+.content-right .informasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.content-right .informasi p{
+    font-size: 2rem;
+    color: #fff;
+    width: 400px;
+    letter-spacing: 1rem;
+    font-family: 'League Spartan', serif;
+}
+
